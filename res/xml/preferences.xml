@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="browser_js_enabled"
+        android:title="Enable JavaScript"
+        android:summary="Toggles JavaScript"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="browser_ua"
+        android:title="Set User Agent"
+        android:defaultValue="Default"
+        android:entries="@array/pref_user_agents_titles"
+        android:entryValues="@array/pref_user_agents_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

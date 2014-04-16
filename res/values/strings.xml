@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="open_browser">Open the WebView</string>
+    <string name="app_name">Scena</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_not_an_url">This does not appear to be an URL</string>
+    <string name="dialog_oops">Oops!</string>
+    <string name="dialog_title">I\'m sorry, but...</string>
+
+</resources>
